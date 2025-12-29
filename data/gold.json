@@ -1,0 +1,14 @@
+[
+  {
+    "id": "vid_001",
+    "expected": {
+      "content_type": "news"
+    }
+  },
+  {
+    "id": "vid_002",
+    "expected": {
+      "content_type": "education"
+    }
+  }
+]

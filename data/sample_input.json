@@ -1,0 +1,16 @@
+[
+  {
+    "id": "vid_001",
+    "title": "Shocking Train Accident Caught on Camera",
+    "description": "A major train accident occurred yesterday evening.",
+    "duration_sec": 95,
+    "platform": "youtube"
+  },
+  {
+    "id": "vid_002",
+    "title": "10 Minute Morning Yoga Routine",
+    "description": "Start your day with this calming yoga flow.",
+    "duration_sec": 600,
+    "platform": "youtube"
+  }
+]

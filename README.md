@@ -26,3 +26,31 @@ It does not include a database, UI, or infrastructure components.
 The goal at this stage is to understand core validation, enrichment,
 and evaluation flows before introducing persistence, interfaces,
 or platform concerns.
+
+## Example flow (simplified)
+
+The snippet below shows a minimal end-to-end flow handled by this project:
+ingesting metadata, validating it, enriching it, and evaluating the output.
+
+##python
+from validator import validate_input
+from evaluator import evaluate_output
+from llm_client import enrich_metadata
+
+raw_metadata = {
+    "title": "Sample Show",
+    "provider": "Example OTT",
+    "genre": "Drama"
+}
+
+# Step 1: Validate incoming metadata
+validated = validate_input(raw_metadata)
+
+# Step 2: Enrich metadata (rule-based / LLM-assisted)
+enriched = enrich_metadata(validated)
+
+# Step 3: Evaluate final output quality
+evaluation = evaluate_output(enriched)
+
+print(evaluation)
+

@@ -17,3 +17,12 @@ more reliable, observable, and maintainable over time.
 - System design and evaluation logic
 - Automation and reliability patterns
 - Not focused on model training or ML research
+
+## Current state
+
+This project is intentionally minimal and code-focused.
+It does not include a database, UI, or infrastructure components.
+
+The goal at this stage is to understand core validation, enrichment,
+and evaluation flows before introducing persistence, interfaces,
+or platform concerns.

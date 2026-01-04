@@ -34,8 +34,8 @@ ingesting metadata, validating it, enriching it, and evaluating the output.
 
 ## python
 
-from validator import validate_input
-from evaluator import evaluate_output
+from validator import validate_input, 
+from evaluator import evaluate_output, 
 from llm_client import enrich_metadata
 
 raw_metadata = {

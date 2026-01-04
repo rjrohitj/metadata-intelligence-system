@@ -32,7 +32,8 @@ or platform concerns.
 The snippet below shows a minimal end-to-end flow handled by this project:
 ingesting metadata, validating it, enriching it, and evaluating the output.
 
-##python
+## python
+
 from validator import validate_input
 from evaluator import evaluate_output
 from llm_client import enrich_metadata
